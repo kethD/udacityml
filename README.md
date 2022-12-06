@@ -107,9 +107,14 @@ AutoML will always be best suited for the reason it will run all different avila
 ## Future work
 The most common issue with any model is with reagarding to check for Bias. Yes model can be only as good as data set can be. Careful evaluation of dataset needs to be done to see model is performing well enough. 
 
+## Clean Up Cluster
+``` python 
+    from azure.ai.ml.entities import ComputeInstance, AmlCompute
 
+        ml_client.compute.begin_delete(cluster_name).wait()
+```
 ## References
 
 - [https://github.com/Azure/MachineLearningNotebooks/issues/1263]
 - [https://towardsdatascience.com/hidden-tricks-for-running-automl-experiment-from-azure-machine-learning-sdk-915d4e3f840e]
-
+- [https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python#:~:text=begin_restart(ci_basic_name).wait()-,Delete,-Python]
