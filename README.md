@@ -7,11 +7,12 @@ This model is then compared to an Azure AutoML run.
 In this project, I have created and optimize an ML pipeline. I used standard Scikit-learn Logistic Regression—the hyperparameters of which I have optimized using HyperDrive. Its then fine tuned using hyper parameter and then using AutoML submitted and compared results of which model ie best fit
 
 You can see the main steps  in the diagram below:
-![image](https://github.optum.com/storage/user/2531/files/209cfa90-aefc-40e8-8c36-60136beef67f)
+![image](https://user-images.githubusercontent.com/5426642/205819578-4c194ab7-f3a2-4ff7-902f-f6defa24ee30.png)
 Source:- [img src](https://learn.udacity.com/nanodegrees)
 
 These are the steps for the project execution 
-![image](https://github.optum.com/storage/user/2531/files/4b064f02-8e77-4b9d-a215-b2c740e49912)
+![image](https://user-images.githubusercontent.com/5426642/205819632-2766eec5-6470-40d7-862a-2a2bed597bce.png)
+
 Source: [img src](Https://learn.udacity.com/nanodegrees)
 
 - Create tabular data set.
@@ -36,11 +37,10 @@ Goal of this project is to predict wheather client will subscribe for a bank ter
 
 Scikit-learn pipeline gave an accuracy of **0.9162377 HyperDrive Model
 
-![image](https://github.optum.com/storage/user/2531/files/b6d5a871-4a53-4053-b21c-aacf99a00b34)
+![image](https://user-images.githubusercontent.com/5426642/205819693-87c8fffb-a55d-47fd-825a-5c575b2ef994.png)
 
 **AutoML model**  has accuracy of **0.91657
-![image](https://github.optum.com/storage/user/2531/files/973cef58-2021-4e8c-ab9b-bba1cdf6678c)
-
+![image](https://user-images.githubusercontent.com/5426642/205819733-6b86227a-7066-441a-9255-121fed3ec594.png)
 
 
 ## Scikit-learn Pipeline
